@@ -9,6 +9,7 @@ This project scraps data for products over Amazon, using playwright and stores t
 ```python
 python3 -m venv py_3.13.12
 pip3 install -r requirements.txt
+playwright install
 ```
 
 2. Store all your Amazon product URLs in a file called `input-urls.txt`.
